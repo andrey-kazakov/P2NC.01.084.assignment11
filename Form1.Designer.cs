@@ -46,6 +46,7 @@
             this.BrakeButton.TabIndex = 0;
             this.BrakeButton.Text = "Brake";
             this.BrakeButton.UseVisualStyleBackColor = true;
+            this.BrakeButton.Click += new System.EventHandler(this.BrakeButton_Click);
             // 
             // AccelerateButton
             // 
@@ -55,6 +56,7 @@
             this.AccelerateButton.TabIndex = 1;
             this.AccelerateButton.Text = "Wroom!";
             this.AccelerateButton.UseVisualStyleBackColor = true;
+            this.AccelerateButton.Click += new System.EventHandler(this.AccelerateButton_Click);
             // 
             // label1
             // 
@@ -121,7 +123,7 @@
             this.Controls.Add(this.AccelerateButton);
             this.Controls.Add(this.BrakeButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "assignment11_AndreiKazakov";
             this.ResumeLayout(false);
             this.PerformLayout();
 
